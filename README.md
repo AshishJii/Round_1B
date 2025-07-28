@@ -50,6 +50,14 @@ Make sure your project directory is structured **exactly** as shown below:
 
 ## 🚀 How to Run
 
+
+To run directly, use command:
+
+```
+pip install -r requirements.txt
+python pdf_qa_processor.py
+```
+
 The process includes **two main steps**:
 
 ### 1. Build the Docker Image
