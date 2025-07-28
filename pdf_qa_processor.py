@@ -6,11 +6,10 @@ import os
 import re
 import argparse
 from sentence_transformers import SentenceTransformer, util
-from transformers import pipeline, logging
+from transformers import pipeline, logging, AutoModelForSeq2SeqLM, AutoTokenizer
 
 # --- Suppress verbose warnings ---
 logging.set_verbosity_error()
-
 
 # --- Part 1: PDF Structure Extraction Functions ---
 
@@ -199,7 +198,7 @@ def rank_top_headings(all_heading_data, question, top_n=5):
     """
     print("--- Stage 1: Ranking Headings by Semantic Similarity ---")
     try:
-        model = SentenceTransformer('all-MiniLM-L6-v2')
+        model = SentenceTransformer('./models/all-MiniLM-L6-v2')
     except Exception as e:
         print(f"Error loading SentenceTransformer model: {e}", file=sys.stderr)
         return []
@@ -232,7 +231,11 @@ def generate_answers_from_content(top_headings, question):
     """
     print("\n--- Stage 2: Generating Refined Text from Content using FLAN-T5 ---")
     try:
-        qa_pipeline = pipeline("text2text-generation", model="google/flan-t5-base")
+        model_path = './models/flan-t5-base'
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
+        qa_pipeline = pipeline("text2text-generation", model=model, tokenizer=tokenizer)
+        # qa_pipeline = pipeline("text2text-generation", model="google/flan-t5-base")
     except Exception as e:
         print(f"Error loading QA pipeline: {e}", file=sys.stderr)
         return []
