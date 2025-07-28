@@ -228,6 +228,7 @@ def main():
     merged = {}
     for pdf in pdfs:
         merged[os.path.basename(pdf)] = extract_pdf_structure(pdf)
+        print("Parsed:",pdf)
 
     with open(args.output, 'w', encoding='utf-8') as f:
         json.dump(merged, f, indent=2, ensure_ascii=False)

@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
+    ],
+    "persona": "HR professional",
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance."
+  },
+  "extracted_sections": [
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Save forms",
+      "importance_rank": 1,
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Print forms",
+      "importance_rank": 2,
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Types of PDF forms | Fill and sign PDF forms",
+      "importance_rank": 3,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Fill in PDF Forms | Is the form fillable?",
+      "importance_rank": 4,
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Types of PDF forms | To fill text fields:",
+      "importance_rank": 5,
+      "page_number": 2
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Acrobat Reader",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "\"1. Print this file from the upper right. 2. Choose an appropriate printer in the Print dialog box. 3. In the Comments And Forms menu, choose one of the following, and then select OK : • (Interactive or flat form) To print the form and the typed entries, choose Document . This option prints text that you’ve typed using the Add Text tool. • (Interactive or flat form only) To print only the typed entries and not the form itself, choose Form Fields Only .\"",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "PDF",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Form creators don’t convert their PDFs to interactive fillable forms. Or, they intentionally design a form that you can fill in only by hand or with the Fill & Sign tool. These non-interactive forms are called flat forms.\"",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "\"1. From the left panel, select Fill in form fields , and then select the field where you want to add text. It displays a text field along with a toolbar. 2. Select the text field again and enter your text. 3. To reposition the text box to align it with the text field, select the textbox and hover over it. Once you see a plus icon with arrows, move the textbox to the desired position. 4. To edit the text, select the text box. Once you see the cursor and keypad, edit the text and then click elsewhere to enter. 5. To change the text size, select A or A as required.\"",
+      "page_number": 2
+    }
+  ]
+}

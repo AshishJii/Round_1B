@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items."
+  },
+  "extracted_sections": [
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "section_title": "Pulled Pork Sandwiches Ingredients:",
+      "importance_rank": 1,
+      "page_number": 7
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Cottage Cheese and Veggie Bowl Ingredients:",
+      "importance_rank": 2,
+      "page_number": 16
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Pasta Salad Ingredients:",
+      "importance_rank": 3,
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "section_title": "Beef and Broccoli Ingredients:",
+      "importance_rank": 4,
+      "page_number": 7
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Tacos Ingredients:",
+      "importance_rank": 5,
+      "page_number": 6
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "refined_text": " 2 pounds pork shoulder  1 small onion, sliced  2 cloves garlic, minced  1 cup barbecue sauce  1/2 cup chicken broth  1 tablespoon brown sugar  1 teaspoon smoked paprika  Salt and pepper to taste  Buns for serving  Coleslaw for topping (optional) Instructions:  Season pork shoulder with salt, pepper, and smoked paprika.  Place onion and garlic in a slow cooker, then add pork.  Mix barbecue sauce, chicken broth, and brown sugar, and pour over pork.  Cook on low for 8 hours or high for 4 hours until pork shreds easily.  Shred pork with forks and mix with sauce.  Serve on buns with coleslaw if desired.",
+      "page_number": 7
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "cottage cheese • 1/4 cup diced cucumber • 1/4 cup cherry tomatoes, halved • 1/4 cup diced bell pepper • Salt and pepper to taste Instructions: • In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. • Season with salt and pepper Instructions: • In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. • Season with salt and pepper Instructions: • In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. • Season with salt and pepper Instructions: • In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. • Season with salt and pepper Instructions: • In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. • Season with salt and pepper Instructions: • In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. • Season with salt and pepper Instructions: • In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. • Season with salt and pepper Instructions: • In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. • Season with salt and pepper Instruction",
+      "page_number": 16
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "rotini or penne",
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "refined_text": " 1 pound beef sirloin, thinly sliced  2 cups broccoli florets  1 small onion, diced  2 cloves garlic, minced  1/4 cup soy sauce  1/4 cup beef broth  2 tablespoons oyster sauce  1 tablespoon cornstarch  2 tablespoons vegetable oil  Cooked rice for serving Instructions:  In a small bowl, mix soy sauce, beef broth, oyster sauce, and cornstarch.  In a large skillet, heat vegetable oil over medium heat.  Cook sliced beef until browned, then set aside.  In the same skillet, sauté diced onion and minced garlic until fragrant.  Add broccoli florets and stir-fry until tender.  Return beef to the skillet and pour sauce over the top.  Cook until sauce is thickened.  Serve over cooked rice.\"",
+      "page_number": 7
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "eggs, shredded cheese, sausage or bacon, onions and bell pepper",
+      "page_number": 6
+    }
+  ]
+}
